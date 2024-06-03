@@ -14,9 +14,7 @@ yii2-ckeditor5-full-ru
 
 Использование
 -----
-После установки расширения просто используйте его в своем коде:
-
-путь
+Путь
 ```
 use nigabrein\ckeditor5\CKEditor;
 ```
@@ -99,4 +97,38 @@ use nigabrein\ckeditor5\CKEditor;
     'uploadField' => 'image',  //field name in the upload form
   ]
 ]); ?>
+```
+Конфликт стилей bootstrap5 и ckeditor5 - если поле ckeditor5 находиться в модальном окне bootstrap5 то не работает функция 'link' у ckeditor5.
+Решение:
+```
+document.addEventListener("DOMContentLoaded", function() {
+  var button = document.querySelector('button[crutch-ckeditor-btn="true"]');
+  
+  if (button) {
+    button.addEventListener("click", function() {
+        
+      var element = document.querySelector('.ck-body-wrapper');
+      if(element){
+        //element.style.position = 'fixed';
+        //element.style.zIndex = 1060;
+          
+        var modal = document.querySelector('div[crutch-ckeditor-modal="true"]');
+        if(modal){
+            modal.appendChild(element);
+        }
+      }
+    });
+  }
+});
+
+//crutch-ckeditor-btn="true" параметр на кнопку с модальным окном с ckeditor
+
+//crutch-ckeditor-modal="true" параметр на модальное окно с ckeditor
+```
+
+Чтобы убрать с поля ckeditor5 логотип нужно скрыть ck-powered-by:
+```
+.ck.ck-powered-by a {
+    display: none !important;
+}
 ```
