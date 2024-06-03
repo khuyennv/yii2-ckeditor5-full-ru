@@ -10,7 +10,7 @@ yii2-ckeditor5-full-ru
 ```
  "nigabrein/yii2-ckeditor5-full-ru": "*"
 ```
-в раздел require вашего файла `composer.json`.
+в раздел require вашего файла `composer.json`
 
 Использование
 -----
