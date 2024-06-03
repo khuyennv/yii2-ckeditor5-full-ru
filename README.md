@@ -1,9 +1,28 @@
+yii2-ckeditor5-full-ru
+==============
 Полная и русская версия ckeditor5 для yii2
 
+Установка
+------------
+Предпочтительный способ установки этого расширения — через [composer](http://getcomposer.org/download/).
+
+Либо вставьте
+```
  "nigabrein/yii2-ckeditor5-full-ru": "*"
+```
+в раздел require вашего файла `composer.json`.
 
+Использование
+-----
+После установки расширения просто используйте его в своем коде:
+
+путь
+```
 use nigabrein\ckeditor5\CKEditor;
+```
 
+Виджет 1
+```
 <?= $form->field($model, 'text')->widget(CKEditor::className(), 
     [
         'toolbar' => [
@@ -19,7 +38,10 @@ use nigabrein\ckeditor5\CKEditor;
         'uploadUrl' => '/someUpload.php',
     ]
 ); ?>
+```
 
+Виджет 2
+```
  <?= $form->field($model_create, 'name')->widget(CKEditor::className(), 
     [
         'toolbar' => [
@@ -27,7 +49,9 @@ use nigabrein\ckeditor5\CKEditor;
         ],
     ]
 ); ?>
-
+```
+Функции
+```
 'uploadUrl' => 'site/upload', //this will be the url where you want to ckeditor send the post request with file data
 
 'toolbar' => [
@@ -64,7 +88,10 @@ use nigabrein\ckeditor5\CKEditor;
   'code',
   'removeFormat'
 ],
+```
 
+Прочее
+```
 <?= $form->field($model, 'content')->widget(CKEditor::className(),[
   'clientOptions' => [
     'language' => 'en',
@@ -72,3 +99,4 @@ use nigabrein\ckeditor5\CKEditor;
     'uploadField' => 'image',  //field name in the upload form
   ]
 ]); ?>
+```
