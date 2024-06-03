@@ -33,6 +33,7 @@ use nigabrein\ckeditor5\CKEditor;
           '|', 'bulletedList', 'numberedList',
           '|', 'removeFormat',
        ],
+       //'value' => 'Text',
    ]
 ); ?>
 ```
@@ -52,6 +53,8 @@ use nigabrein\ckeditor5\CKEditor;
 'uploadUrl' => 'site/upload', //this will be the url where you want to ckeditor send the post request with file data
 
 'uploadUrl' => '/someUpload.php',
+
+'value' => 'Text',
 
 'toolbar' => [
    'Sourceediting',
