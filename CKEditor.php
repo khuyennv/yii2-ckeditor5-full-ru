@@ -15,7 +15,7 @@ use yii\widgets\InputWidget;
 class CKEditor extends InputWidget
 {
     public $clientOptions = [
-        'language'=> 'ru',
+        'language'=> 'en',
         'toolbar' => [
             'items' => [
 		'heading',
