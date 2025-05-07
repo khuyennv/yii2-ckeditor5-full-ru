@@ -9,8 +9,7 @@ use yii\widgets\InputWidget;
 
 /**
  * CKEditor renders a CKEditor5 js plugin for classic editing.
- * @author Parveen nigabrein <itanikobolow@gmail.com>
- * @package nigabrein\ckeditor5
+ * @package khuyennv\ckeditor5
  */
 class CKEditor extends InputWidget
 {

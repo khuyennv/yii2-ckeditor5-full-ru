@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "nigabrein\\ckeditor5\\": ""
+            "khuyennv\\ckeditor5\\": ""
         }
     }
 }
