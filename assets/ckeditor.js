@@ -37,7 +37,7 @@
         "Block styles": "Block styles",
         Blue: "Blue",
         "Blue marker": "Highlight with a blue marker",
-        Bold: "Bold"
+        Bold: "Bold",
         "Bold text": "Bold text",
         Border: "Border",
         "Break text": "Break text",
@@ -148,13 +148,13 @@
         "French franc sign": "Symbol for the French franc",
         "Full size image": "Original image size",
         "German penny sign": "German penny symbol",
-        "Greater-than or equal to": "Greater than or equal to"
-        "Greater-than sign": "Greater-than sign"
+        "Greater-than or equal to": "Greater than or equal to",
+        "Greater-than sign": "Greater-than sign",
         Green: "Green",
         "Green marker": "Highlight with green marker",
         "Green pen": "Text color green",
         Gray: "Gray",
-        Groove: "Grooved"
+        Groove: "Grooved",
         "Guarani sign": "Guarani symbol",
         "Header column": "Header column",
         "Header row": "Header row",
@@ -175,8 +175,8 @@
         "Hryvnia sign": "Hryvnia symbol",
         "HTML object": "HTML object",
         "HTML snippet": "HTML snippet",
-        Huge: "Very large"
-        "Identical to": "Identical to"
+        Huge: "Very large",
+        "Identical to": "Identical to",
         "Image from computer": "Image from computer",
         "Image resize list": "List of sizes",
         "Image toolbar": "Image toolbar",
@@ -519,7 +519,7 @@
         "Single right-pointing angle quotation mark": "Single right-pointing French angle quotation mark",
         Small: "Small",
         Solid: "Solid",
-        "soon with rightwards arrow above": "Soon with rightwards arrow above"
+        "soon with rightwards arrow above": "Soon with rightwards arrow above",
         Source: "HTML editor",
         "Special characters": "Special characters",
         "Spesmilo sign": "Spesmilo symbol",
@@ -592,7 +592,7 @@
         "Upload failed": "Upload failed",
         "Upload from computer": "Upload from computer",
         "Upload image from computer": "Upload image from computer",
-        "Upload in progress": "Uploading"
+        "Upload in progress": "Uploading",
         "Uploading image": "Uploading image",
         "Upper-latin": "Big Latin",
         "Upper-roman": "Big Roman",
@@ -615,7 +615,7 @@
         "Wrap text": "Wrap text",
         Yellow: "Yellow",
         "Yellow marker": "Highlight with a yellow marker",
-        "Yen sign": "Yen symbol"
+        "Yen sign": "Yen sign"
     });
     e.getPluralForm = function (t) {
         return t % 10 == 1 && t % 100 != 11 ? 0 : t % 10 >= 2 && t % 10 <= 4 && (t % 100 < 12 || t % 100 > 14) ? 1 : t % 10 == 0 || t % 10 >= 5 && t % 10 <= 9 || t % 100 >= 11 && t % 100 <= 14 ? 2 : 3
