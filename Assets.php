@@ -1,5 +1,6 @@
 <?php
-namespace nigabrein\ckeditor5;
+namespace khuyennv\ckeditor5;
+
 use yii\web\AssetBundle;
 
 class Assets extends AssetBundle

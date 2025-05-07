@@ -1,6 +1,6 @@
 <?php
 
-namespace nigabrein\ckeditor5;
+namespace khuyennv\ckeditor5;
 
 use yii\helpers\Html;
 use yii\helpers\Json;
