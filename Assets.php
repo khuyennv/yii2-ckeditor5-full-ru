@@ -5,7 +5,7 @@ use yii\web\AssetBundle;
 
 class Assets extends AssetBundle
 {
-    public $sourcePath = '@vendor/nigabrein/yii2-ckeditor5-full-ru/assets/';
+    public $sourcePath = '@vendor/khuyennv/yii2-ckeditor5-full-ru/assets/';
     public $css = [
     ];
 
