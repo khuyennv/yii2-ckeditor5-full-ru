@@ -30,7 +30,7 @@
         "back with leftwards arrow above": "Left arrow above the word BACK",
         Background: "Background",
         "Below, you can find a list of keyboard shortcuts that can be used in the editor.": "Below you can find a list of keyboard shortcuts that can be used in the editor.",
-        Big: "Large"
+        Big: "Large",
         "Bitcoin sign": "Bitcoin symbol",
         Black: "Black",
         "Block quote": "Quote",
