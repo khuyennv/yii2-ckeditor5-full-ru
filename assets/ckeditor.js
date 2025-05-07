@@ -19,7 +19,7 @@
         "Align table to the left": "Align the table to the left",
         "Align table to the right": "Align table to the right",
         Alignment: "Alignment",
-        All: "Everything"
+        All: "Everything",
         "Almost equal to": "Almost equal",
         Angle: "Angle",
         "Approximately equal to": "Congruence (geometric equality)",
@@ -426,7 +426,7 @@
         "No preview available": "Preview not available",
         "No results found": "No results found",
         "No searchable items": "No items to search",
-        None: "No"
+        None: "No",
         "Nordic mark sign": "Symbol of the Scandinavian mark",
         "Not an element of": "Does not belong",
         "Not equal to": "Not equal",
@@ -470,7 +470,7 @@
         "Question exclamation mark": "Question exclamation mark",
         Red: "Red",
         "Red pen": "Red text color",
-        Redo: "Repeat"
+        Redo: "Repeat",
         "Registered sign": "Registered trademark",
         "Remove color": "Remove color",
         "Remove Format": "Remove formatting",
@@ -491,7 +491,7 @@
         "Reversed paragraph sign": "Reversed paragraph sign",
         "Revert autoformatting action": "Reverse autoformatting action",
         "Rich Text Editor": "Editor",
-        Ridge: "Ribbed"
+        Ridge: "Ribbed",
         "Right aligned image": "Right aligned",
         "Right double quotation mark": "Closing double quotation mark",
         "Right single quotation mark": "Closing single quotation mark",
@@ -558,7 +558,7 @@
         "This link has no URL": "There is no URL set for this link",
         "This media URL is not supported.": "This media URL is not supported.",
         "Tilde operator": "Tilde operator",
-        Tiny: "Very small"
+        Tiny: "Very small",
         "Tip: Find some text first in order to replace it.": "Tip: Find some text first in order to replace it.",
         "Tip: Paste the URL into the content to embed faster.": "Tip: Paste the URL into the content to embed faster.",
         "To-do List": "Task list",
