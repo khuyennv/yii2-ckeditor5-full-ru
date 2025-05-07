@@ -8,7 +8,7 @@ yii2-ckeditor5-full-ru
 
 Либо вставьте
 ```
-"nigabrein/yii2-ckeditor5-full-ru": "*"
+"khuyennv/yii2-ckeditor5-full-ru": "*"
 ```
 в раздел require вашего файла `composer.json`
 
@@ -16,7 +16,7 @@ yii2-ckeditor5-full-ru
 -----
 Путь
 ```
-use nigabrein\ckeditor5\CKEditor;
+use khuyennv\ckeditor5\CKEditor;
 ```
 
 Виджет 1
